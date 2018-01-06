@@ -1,20 +1,18 @@
 {
   "name": "bmpjs",
   "version": "1.0.0",
-  "description": "pure bmp decoder library for nodejs and web",
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp test"
-  },
+  "description": "pure bmp decoder library for nodejs, support all bmp formats,converted from http://www.netsurf-browser.org/projects/libnsbmp/",
+  "main": "./lib/index.js",  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamzakilic/bmpjs.git"
   },
   "keywords": [
     "bmp",
+    "decoder",
     "library"
   ],
-  "author": "hamza kılıç",
+  "author": "hamza kılıç <hamza@hamzakilic.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hamzakilic/bmpjs/issues"

@@ -2,13 +2,13 @@
 
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es2015",
-        "noImplicitAny": true,
+        "target": "es5",
+        "noImplicitAny": true,        
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true,
+        "sourceMap": false,
         "moduleResolution": "node",        
-        "outDir": "./build",        
+        "outDir": "./lib",        
         "declaration":true
         
         

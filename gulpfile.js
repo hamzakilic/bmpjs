@@ -4,6 +4,7 @@ var gulp  = require('gulp'),
     mocha = require('gulp-mocha');
     
     
+    
 //create a tsproject varible for running task buildsrc
 var tsProjectSrc = gulpts.createProject('tsconfig.json');
 
@@ -14,7 +15,7 @@ var testFolder="./test/**/*.spec.js";
 gulp.task('buildsrc', function() {
     
   var tsResult = gulp.src(sourceFolder).pipe(tsProjectSrc());
-    return tsResult.js.pipe( gulp.dest('build/') )
+    return tsResult.js.pipe( gulp.dest('lib/') )
     
 
 });
@@ -47,27 +48,6 @@ gulp.task('runspec',['buildsrc'], function() {
 gulp.task('watch_spec', ['runspec'], function() {
     gulp.watch(testFolder, ['runspec']);
     
-});
-
-
-
-
-
-
-//watch output image.js for browserify
-gulp.task('watch_output', ['buildsrc'], function() {
-   // gulp.watch('build/image.js', ['runbrowserify']);
-    
-});
-
-gulp.task('runbrowserify', function() {
-    // Single entry point to browserify 
-    gulp.src('build/image.js')
-        .pipe(browserify({
-          insertGlobals : true,
-          debug : !gulp.env.production
-        }))
-        .pipe(gulp.dest('./build/browserify'))
 });
 
 

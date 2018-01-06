@@ -3,9 +3,9 @@ const assert = chai.assert; // we are using the "assert" style of Chai
 const expect = chai.expect;
 
 
-const image = require('../build/imageRGBA').ImageRGBA;
-const errors = require('../build/errors').Errors;
-const bmpDecoder = require('../build/bmpDecoder').BmpDecoder;
+const image = require('../lib/imageRGBA').ImageRGBA;
+const errors = require('../lib/errors').Errors;
+const bmpDecoder = require('../lib/bmpDecoder').BmpDecoder;
 
 const fs = require('fs');
 

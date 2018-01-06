@@ -1,8 +1,8 @@
 var chai = require('chai');
 var assert = chai.assert; // we are using the "assert" style of Chai
 var expect = chai.expect;
-var image = require('../build/imageRGBA').ImageRGBA;
-var errors = require('../build/errors').Errors;
+var image = require('../lib/imageRGBA').ImageRGBA;
+var errors = require('../lib/errors').Errors;
 
 
 

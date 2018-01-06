@@ -6,11 +6,10 @@ converted from c library http://www.netsurf-browser.org/projects/libnsbmp/
 npm install bmpjs --save
 
 #build
-npm install
-npm build
+gulp buildsrc
 
 #test
-npm test
+gulp runspec
 
 #usage
 

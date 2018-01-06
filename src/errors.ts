@@ -1,8 +1,7 @@
 export class DecodeError extends Error{
     private _errNumber:number;
     constructor(errno:number,msg:string) {
-        super();
-        super.message=msg;
+        super(msg);
         this._errNumber=errno;
         
     }
