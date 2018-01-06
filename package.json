@@ -1,6 +1,6 @@
 {
-  "name": "bmpjs",
-  "version": "1.0.0",
+  "name": "bmpimagejs",
+  "version": "1.0.1",
   "description": "pure bmp decoder library for nodejs, support all bmp formats,converted from http://www.netsurf-browser.org/projects/libnsbmp/",
   "main": "./lib/index.js",  
   "repository": {
