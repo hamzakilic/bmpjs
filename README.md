@@ -2,13 +2,16 @@
 pure javascript decoding all bmp files nodejs library,
 converted from c library http://www.netsurf-browser.org/projects/libnsbmp/
 
-#install
-npm install bmpjs --save
+#npm link<br/>
+https://www.npmjs.com/package/bmpimagejs
 
-#build
+#install <br/>
+npm install bmpimagejs --save
+
+#build<br/>
 gulp buildsrc
 
-#test
+#test<br/>
 gulp runspec
 
 #usage
