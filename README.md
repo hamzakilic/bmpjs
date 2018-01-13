@@ -40,7 +40,7 @@ fs.readFile('filename', (err, data) => {
             
             }catch(ex){
                 console.log(ex.errNumber);
-                console.log(ex.msg);
+                console.log(ex.message);
             }
 
         });
